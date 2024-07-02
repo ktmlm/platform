@@ -29,8 +29,6 @@ time = "0.3"
 tendermint = { git = "https://github.com/FindoraNetwork/tendermint-rs", tag = "v0.19.0c" }
 indexmap = { version = "1.6.2", features = ["serde"] }
 config = { path = "../components/config" }
-fp-types = { path = "../components/contracts/primitives/types" }
-fp-utils = { path = "../components/contracts/primitives/utils" }
 ruc = "1.0"
 zei = { package="platform-lib-noah", git = "https://github.com/FindoraNetwork/platform-lib-noah", branch = "main" }
 bulletproofs = { package = "bulletproofs", git = "https://github.com/FindoraNetwork/bp", rev = "57633a", features = ["yoloproofs"] }

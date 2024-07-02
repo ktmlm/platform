@@ -34,9 +34,6 @@ globutils = { git = "https://github.com/FindoraNetwork/platform-lib-utils", bran
 credentials = { git = "https://github.com/FindoraNetwork/platform-lib-credentials", branch = "fix_dep" }
 
 eth_checksum = { version = "0.1.2", optional = true }
-fp-core = { path = "../contracts/primitives/core", default-features = false }
-fp-utils = { path = "../contracts/primitives/utils" }
-fp-types = { path = "../contracts/primitives/types" }
 
 tendermint = { git = "https://github.com/FindoraNetwork/tendermint-rs", tag = "v0.19.0c" }
 tendermint-rpc = { git = "https://github.com/FindoraNetwork/tendermint-rs", features = ["http-client", "websocket-client"], optional = true, tag = "v0.19.0c" }
